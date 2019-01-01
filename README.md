@@ -6,9 +6,9 @@ The `vapor_master` package was released.
 
 Version of package(s) in repository `vapor_master`:
 
-- upstream repository: git@github.com:roshub/vapor_master.git
-- release repository: unknown
-- rosdistro version: `null`
+- upstream repository: https://github.com/roshub/vapor_master.git
+- release repository: https://github.com/roshub/vapor_master-release.git
+- rosdistro version: `melodic`
 - old version: `null`
 - new version: `0.1.0-0`
 
