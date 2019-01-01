@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>vapor_master</name>
+  <version>0.1.0</version>
+  <description>ephemeral ros master node for cloudscale deployment</description>
+
+  <maintainer email="nick@roshub.io">Nicholas Zatkovich</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <url type="website">http://github.com/roshub/vapor_master</url>
+
+  <author email="code@roshub.io">RosHub Inc.</author>
+
+  <!--   <doc_depend>doxygen</doc_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>nodejs</buildtool_depend>
+  <buildtool_depend>npm</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>rospack</exec_depend>
+  <exec_depend>nodejs</exec_depend>
+
+  <export></export>
+</package>
