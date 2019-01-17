@@ -1,0 +1,12 @@
+Source: ros-melodic-vapor-master
+Section: misc
+Priority: extra
+Maintainer: Nicholas Zatkovich <nick@roshub.io>
+Build-Depends: debhelper (>= 9.0.0), nodejs, npm, ros-melodic-catkin
+Homepage: http://github.com/roshub/vapor_master
+Standards-Version: 3.9.2
+
+Package: ros-melodic-vapor-master
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, nodejs, ros-melodic-rospack
+Description: high availability ros master
